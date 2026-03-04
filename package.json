@@ -1,0 +1,15 @@
+{
+  "name": "yap",
+  "version": "1.0.0",
+  "description": "Yap",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "http-auth": "4.2.0",
+    "prisma": "5.13.0",
+    "pug": "3.0.2"
+  }
+}
