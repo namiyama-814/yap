@@ -28,3 +28,9 @@ function isPressSubmitKey(event) {
     return true;
   }
 }
+
+// ツールチップの有効化
+const tooltipTriggerElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+tooltipTriggerElements.forEach((tooltipTriggerElement) => {
+  new bootstrap.Tooltip(tooltipTriggerElement);
+});
